@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+     background-color: #D7D7D7;
+}
+.contianer{
+    width: 1240px;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav_ul{
+    display: flex;
+    margin-right:50px ;
+}
+
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav_li_a {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 40px;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+header{
+    background-color:  #D7D7D7;
+    
+}
+.header_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right_div{
+    height: 600px;
+}
+
+.left_h3{
+    font-family: "Raleway", sans-serif;
+    margin: 30px 0px ;
+}
+.header_left_h2{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 93px;
+}
+
+.header_left_p{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 80px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+   color: #909090; 
+}
+.left_img{
+    margin-left: 20px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.section1_h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: black;
+    color: white;
+}
+.section1_p{
+    font-family: "Open Sans", sans-serif;
+    width: 85%;
+    background-color: black;
+    color: white;
+}
+.section1{
+    background-color: black;
+    color: white;
+}
+.section2_h2{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    border: 3px solid black;
+    width: 180px;
+    justify-content: center;
+    margin-left: 600px;
+}
+.section2_p{
+    font-family: "Open Sans", sans-serif;
+    font-weight:400 ;
+    font-size:15px ;
+    line-height:20px ;
+    margin-left: 400px;
+}
+
+.section3_h3{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+    border-left:2px solid black ;
+    border-right:2px solid black ;
+    width: 110px;
+    margin-left: 650px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section3_img{
+    margin-left: 610px;
+    margin-bottom: 40px;
+}
+.section4_h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight:700 ;
+    font-size:22px ;
+    line-height:26px ;
+    margin-bottom: 10px;
+}
+.section4_p{
+    font-family: "Open Sans", sans-serif;
+    font-weight:300 ;
+    font-size:14px ;
+    line-height:19px ;
+    margin-bottom: 40px;
+}
+.section4_img{
+    margin-left: 610px;
+    margin-bottom: 40px;
+}
+.alohida_h3{
+    font-family: "Montserrat", sans-serif;
+    border: 3px solid black;
+    width: 120px ;
+    margin-left: 600px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.alohida_h33{
+    font-family: "Montserrat", sans-serif;
+    font-weight:700;
+    font-size:30px ;
+    line-height:36px ;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.section{
+    font-family: "Montserrat", sans-serif; 
+}
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section6{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section7{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+ .section6_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ } 
+.section8 {
+    background-image: url(./imeges/manzara.png);
+    background-repeat:no-repeat ;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 30px;
+}
+.button1{
+    font-family: "Montserrat", sans-serif; 
+    padding: 20px 40px;
+    opacity: 1;
+    border: 2px solid black;
+}
+.section9_ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.li{
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 40px;
+    font-weight:600 ;
+    font-size:14px ;
+    line-height: 17px;
+  
+   
+}
+.section9{
+    background-color: black;
+    padding: 20px;
+}
+.a{
+    color:white ;
+
+}
+.section10_ul{
+    display: flex;
+}
+.footer_dv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.button5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.54%;
+    padding: 30px;
+    border: 3px solid black;
+}
+.p8{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #8B8B8B;
+    margin: 40px 0px;
+    width: 800px;
+}
+.div{
+    padding: 20px 0px;
+}
+
+.button6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    width: 100px;
+    margin-left: 130px;
+}
+.footer_div{
+    background-color: #000000;
+    margin-bottom: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.li4{
+    display: flex;
+}
+.p14{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18.29px;
+    color: white;
+}
+.ull{
+    margin: 35px 15px;
+}
+.p15{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.55px;
+    color: white;
+}
+.a1{
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.diz{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.input{
+    margin: 30px 0px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid black;
+}
+.tempus{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid black;
+}
+.ull{
+    margin: 35px 15px;
+}
+.sub{
+    display:inline-block;
+    padding: 13px 50px;  
+    border: none;
+    border-left: 1px solid #000;
+    border-right: 1px solid black;
+    margin: 30px;
+    background-color: #D7D7D7;
+}
